@@ -1,0 +1,81 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+canvas {
+    display: block;
+}
+
+label {
+    font-size: 25px;
+    position: fixed;
+    right: 10px;
+    width: 280px;
+}
+
+input {
+    position: fixed;
+}
+
+input[type='checkbox'] {
+    right: 265px;
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+#maxfl {
+    top: 10px;
+}
+
+#maxfn {
+    top: 10px;
+    text-align: right;
+}
+
+#maxf {
+    right: 10px;
+    top: 40px;
+    width: 280px;
+}
+
+#circlevisl {
+    top: 70px;
+}
+
+#circlevis {
+    top: 105px;
+}
+
+#pathvisl {
+    top: 140px;
+}
+
+#pathvis {
+    top: 170px;
+}
+
+#originall {
+    top: 210px;
+}
+
+#original {
+    top: 240px
+}
+
+#speed {
+    right: 10px;
+    top: 300px;
+    width: 280px;
+}
+
+#speedla {
+    top: 270px;
+}
+
+#speedli {
+    top: 270px;
+    text-align: right;
+}

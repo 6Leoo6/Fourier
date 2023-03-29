@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="utf-8" />
+        <script src="fourier.js" defer></script>
+        <script src="sketch.js" defer></script>
+    </head>
+    <body>
+        <label for="maxf" id="maxfl">Max kör</label>
+        <label for="maxf" id="maxfn">0</label>
+        <input type="range" id="maxf" min="1" max="1" step="1"/>
+
+        <label for="circlevis" id="circlevisl">Körök láthatóak</label>
+        <input type="checkbox" id="circlevis" checked/>
+
+        <label for="pathvis" id="pathvisl">Vonal látható</label>
+        <input type="checkbox" id="pathvis" checked/>
+
+        <label for="original" id="originall">Eredeti Vonal</label>
+        <input type="checkbox" id="original"/>
+
+        <label for="speed" id="speedla">Sebesség</label>
+        <label for="speed" id="speedli">20</label>
+        <input type="range" id="speed" min="1" max="20" step="1" value="1"/>
+    </body>
+</html>
